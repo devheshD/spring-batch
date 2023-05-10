@@ -4,3 +4,6 @@ spring:
     url: jdbc:mysql://localhost:3306/sys?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
     username: root
     password: root
+  batch:
+    job:
+      enabled: false # 해당 설정 이해하고 넘어가자
